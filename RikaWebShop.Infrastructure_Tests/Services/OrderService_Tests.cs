@@ -70,8 +70,6 @@ public class OrderSerivce_Tests
     [Fact]
     public void GetAll_ShouldReturnTrueWithData_WhenSuccessIsTrue()
     {
-
-
         var orders = new List<Order> { _order };
 
         var expectedResult = new ResponseResult<IEnumerable<Order>> { Success = true, StatusCode = 200, Data = orders };
