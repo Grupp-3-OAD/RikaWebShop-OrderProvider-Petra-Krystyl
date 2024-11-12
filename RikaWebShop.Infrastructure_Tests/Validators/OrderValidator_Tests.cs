@@ -2,7 +2,7 @@
 using RikaWebShop.Infrastructure.Interfaces;
 using RikaWebShop.Infrastructure.Models;
 
-namespace RikaWebShop.Infrastructure_Tests.Services;
+namespace RikaWebShop.Infrastructure_Tests.Validators;
 
 public class OrderValidator_Tests
 {
