@@ -2,7 +2,7 @@
 
 namespace RikaWebShop.Infrastructure.Factories;
 
-public class ResponseFactory<T> : BaseResponseFactory
+public class ResponseFactory<T> : ResponseResultFactory
 {
     public static ResponseResult<T> Success(T data, int statusCode = 200, string? message = null!)
     {
