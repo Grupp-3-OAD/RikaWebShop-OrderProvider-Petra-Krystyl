@@ -1,7 +1,7 @@
 ﻿using RikaWebShop.Infrastructure.Factories;
 using RikaWebShop.Infrastructure.Models;
 
-namespace RikaWebShop.Infrastructure_Tests.Services;
+namespace RikaWebShop.Infrastructure_Tests.Factories;
 
 public class OrderFactory_Tests
 {
@@ -84,7 +84,7 @@ public class OrderFactory_Tests
     public void Create_ShouldReturnOrder_FromOrderEntity()
     {
         var result = OrderFactory.Create(_orderEntityWithData);
-        Assert.IsType<Order>(result);   
+        Assert.IsType<Order>(result);
     }
     [Fact]
     public void Create_ShouldReturnOrderEntity_FromOrderUpdateRequest()
